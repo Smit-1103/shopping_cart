@@ -13,8 +13,8 @@ Grocery List Manager is a user-friendly mobile application designed to simplify 
 
 ## Getting Started
 
-1. Clone repository: `git clone [repository URL]`
-2. Go to repository: `cd [repository directory]`
+1. Clone repository: `git clone https://github.com/Smit-1103/shopping_cart.git`
+2. Go to repository: `cd shopping_cart`
 3. Install Dependencies: `flutter pub get`
 4. Select devices or emulators you want to run the app on.
    - To run on device: `flutter run -d <device-id>`
