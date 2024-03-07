@@ -1,10 +1,7 @@
 import 'dart:convert';
-
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:shopping_cart/data/categories.dart';
-// import 'package:shopping_cart/models/category.dart';
-
 import 'package:shopping_cart/widgets/new_item.dart';
 import 'package:lottie/lottie.dart';
 import '../models/grocery_item.dart';
@@ -188,7 +185,6 @@ class _GroceryListState extends State<GroceryList> {
         ),
       );
     }
-
     if (_error != null) {
       content = Center(
         child: Text(_error!),
